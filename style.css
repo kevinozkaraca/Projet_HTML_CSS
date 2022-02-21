@@ -1,0 +1,1291 @@
+/*---------- Regle pour les écran de plus de 1381px---------*/
+@media all and (min-width:1381px)
+{
+/*-----------Regle d'ensemble du site----------*/
+body {
+    font-family: raleway;
+    font-size: 100%;
+}
+.iconsearch {
+    display: none;
+}
+.HTMLdecalage {
+    margin-left: 2.5%;
+    margin-right: 2.5%;   
+}
+.smart{
+    display: none;
+}
+.menuSmart{
+    display: none;
+}
+h4 {
+    margin: 0px;
+    padding: 5px;
+    font-size: 1rem;
+}
+h3{
+    font-size: 1.1rem;
+}
+li {
+    list-style: none; 
+}
+img {
+    object-fit: cover;
+}
+h1 {
+    margin: 0 0 0.5 0;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+h2 {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-right: 45px;
+    padding-top: 10px;   
+}
+p{
+    font-size: 1rem;
+    }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #0065FC;
+}
+
+/*----------Header----------*/
+
+/*----------Menu de navigation principal---------*/
+
+.logo{
+    width: 7rem;
+    height: auto;
+    padding-top: 45px;
+}
+.navheader {
+    display: flex;
+    justify-content: space-between ;
+}
+.menu {
+    display: flex;
+    justify-content: space-between  ;
+    padding-top : 25px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    border-top : 4px;
+    padding-top : 58px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1rem;    
+}
+#register {
+    color: #0065fc;
+    text-decoration: none;
+    font-weight: 700;
+    border-top : 4px;
+    padding-top : 58px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+#register:hover {
+    color: #5f5f5f;
+    cursor: pointer; 
+    border-bottom: solid 3px #0065fc;       
+}
+.menu a:hover{
+    border-top: 4px #0065fc solid;
+    color: #0065fc;   
+    cursor: pointer; 
+}
+
+/*-----------Section de recherche----------*/
+
+.searchicon{
+    display: none;
+}
+.search1{
+    margin-bottom: 35px;
+}
+.searchtape{
+    display: flex;
+    margin-bottom: 25px;
+}
+.textRecherche{
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: raleway;
+}
+.ecriture {
+    font-size: 1.1rem;
+    font-weight: 725;
+    font-family: raleway;
+}
+.fa-map-marker-alt{
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding: 10px 15px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;  
+}
+input[type=search]{
+    width: 250px;
+    height: 40px;
+    border: none;
+    text-align: left;
+    padding: 10px;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;    
+}
+input[type=submit]{
+    width: 115px;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0065FC;
+    color: white;    
+}
+input[type=submit]:hover{
+    color: #0065FC;
+    background-color: #f2f2f2;
+    border: 1px solid #F2F2F2;
+    cursor: pointer;
+}
+.filtres{
+    display: flex;
+    align-content: inherit;
+}
+.buttonfiltre{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.filtres button{
+    display: flex;
+    align-items: center ;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    border: 3px solid #F2F2F2;
+    border-radius: 25px;
+    background: none;
+    padding: 0 15px 0 0px;
+    margin-right: 30px;
+    margin-top: 6px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: raleway;
+}
+.icon{
+    position: relative;
+    left: -3px;
+    font-size: 0.9rem;
+    display:flex;
+    height:50px;
+    width: 50px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    color: #0065FC;    
+}
+.inficon{
+    display: inline-flex ;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-right: 7px;
+    margin-top: 15px;
+    justify-content: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px #f2f2f2 solid;
+    color: #0065FC;
+}
+.textinficon {
+    padding-bottom: 20px;
+    font-size: 1rem;
+}
+.filtres button:hover .icon{
+    color: rgb(0, 61, 173);
+    background-color: white;
+    border-color: #F2F2F2;
+    scale: 1.3;
+}
+.filtres button:hover {
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+main {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+.greyStar{
+    color: #f2f2f2;
+}
+.description {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.fas fa-map-marker-alt {
+    font-family: "Font Awesome 5 Free";
+    display: flex;
+}
+
+/*----------hébergements----------*/
+
+.titreCadre{
+    margin: 20 0 0 0px;
+    padding: 0 0 0 20px;
+}
+#Gheberge {
+padding: 10px 10px 10px 10px;    
+background-color: rgb(242, 242, 242);
+border-radius: 20px;
+width: 60.5%;
+}
+.Imageheberflex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}  
+.IMGALL{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 145px;
+    margin: 0;
+}
+.grey {
+    color: rgb(206, 206, 206);
+}
+.blue {
+    color: #0065fc;
+}
+.miniature {
+    margin: 10px;
+    padding: 0px;
+    width: 29.5%;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 4px rgba(175, 175, 175, 0.675);                        
+}
+.TexteSousImage{
+    margin: 0px;
+    padding: 5px;
+    font-size: 1rem;
+}
+.Affplus{
+    padding: 20px 0 0 20px;
+    margin: 0 0 20px 0px;
+    font-size: 1rem;
+    font-weight: 800;    
+}
+
+/*----------Plus populaire----------*/
+
+.pluspopcomplet {
+    padding: 10px 10px 10px 10px;    
+    background-color: rgb(242, 242, 242);
+    border-radius: 20px;
+    width: 35%;
+    height: 597.5;
+    justify-content: space-around;
+}
+.pluspop {
+    margin: 10px;
+    padding: 0px;
+    color: black;
+    height: 26.5%;
+    width: 95%;
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 4px rgba(175, 175, 175, 0.675);
+}
+.pluspop figure {
+    height: 39%;
+}
+.IMGplupop{
+    border-radius: 20px 0px 0px 20px;
+    height: 100%;
+    width: 120px;
+    overflow: hidden;
+    float: left;
+    margin: 0 15px 0 0;     
+}
+.sectioongroupi {
+    display: flex;
+    justify-content: space-between;
+}
+.Popeticon {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-chart-line {
+    margin: 15px 15px 0 0;
+    justify-content: space-between;
+}
+
+/*----------Activités à Marseille------------>*/
+
+#BlockActivite {
+    display: flex;
+    width: 100%;
+    height: 500px; 
+}
+figure{
+    margin: 20px ;
+    padding: 0px;
+    justify-content: space-between;
+    justify-items: auto;
+    border-spacing: 15px;  
+}
+.miniaActivite{
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 0px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 4px rgba(175, 175, 175, 0.675);
+    margin: 20px ;
+    padding: 0px;
+    justify-content: space-between;
+    justify-items: auto;
+    border-spacing: 15px;  
+}
+.IMGActiviteBIG{
+    border-radius: 20px 20px 0px 0px;
+    height: 88%;
+    width: 100%;
+    margin-top: 0px;    
+}
+.IMGActiviteSMALLa{
+    border-radius: 20px 20px 0px 0px;
+    height: 220px;
+    width: 100%;
+    margin: 0px;            
+}
+.IMGActiviteSMALLb{
+    border-radius: 20px 20px 0px 0px;
+    height: 112px;
+    width: 100%;
+    margin: 0px;                   
+}
+.IMGActiviteSMALLa1{
+    border-radius: 20px 20px 0px 0px;
+    height: 165px;
+    width: 100%;
+    margin: 0px;      
+}
+.IMGActiviteSMALLb2{
+    border-radius: 20px 20px 0px 0px;
+    height: 165px;
+    width: 100%;
+    margin: 0px;          
+}
+.TexteSousActivit{
+    margin: 0px;
+    padding: 10px;
+    font-size: 1rem;
+    
+}
+.SmallUpDown {
+    margin:0;
+    padding: 0;
+    justify-content: space-between;
+    width: 500px;
+}
+
+/*----------Footer----------*/
+
+footer { 
+    margin-top: 45px;
+    background-color: #f2f2f2;
+    font-size: 1.1rem;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.normaliz{
+    margin-left: 3%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.sectionfooter ul{
+   padding: 0px 0px 0px 0px;
+}
+.sectionfooter li{
+    padding: 5px 0px 0px 5px;
+}
+}
+/*---------- Regle pour les écran de plus de 960px à 1380px---------*/
+
+@media all and (min-width:826px) and (max-width:1380px)
+{
+
+/*-----------Regle d'ensemble du site----------*/
+
+body {
+    font-family: raleway;
+    font-size: 70%;
+}
+.menuSmart{
+    display: none;
+}
+.iconsearch {
+    display: none;
+}
+.HTMLdecalage {
+    margin-left: 2%;
+    margin-right: 2%;   
+}
+h3{
+    font-size: 1.1rem;
+}
+h4 {
+    margin: 0px;
+    padding: 5px;
+    font-size: 1rem;
+}
+.smart{
+    display: none;
+}
+li {
+    list-style: none; 
+}
+img {
+    object-fit: cover;
+}
+h1 {
+    margin: 0 0 0.5 0;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+h2 {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-right: 45px;
+    padding-top: 10px;   
+}
+p{
+    font-size: 1rem;
+    }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #0065FC;
+}
+
+/*----------Header----------*/
+
+/*----------Menu de navigation principal---------*/
+
+.logo{
+    width: 7rem;
+    height: auto;
+    padding-top: 45px;
+}
+.navheader {
+    display: flex;
+    justify-content: space-between ;
+}
+.menu {
+    display: flex;
+    justify-content: space-between  ;
+    padding-top : 25px;
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    border-top : 4px;
+    padding-top : 58px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1rem;    
+}
+#register {
+    color: #0065fc;
+    text-decoration: none;
+    font-weight: 700;
+    border-top : 4px;
+    padding-top : 58px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+#register:hover {
+    color: #5f5f5f;
+    cursor: pointer; 
+    border-bottom: solid 3px #0065fc;       
+}
+.menu a:hover{
+    border-top: 4px #0065fc solid;
+    color: #0065fc;   
+    cursor: pointer; 
+}
+
+/*-----------Section de recherche----------*/
+
+.searchicon{
+    display: none;
+}
+.search1{
+    margin-bottom: 35px;
+}
+.searchtape{
+    display: flex;
+    margin-bottom: 25px;
+}
+.textRecherche{
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: raleway;
+}
+.ecriture {
+    font-size: 1.1rem;
+    font-weight: 725;
+    font-family: raleway;
+}
+.fa-map-marker-alt{
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding: 10px 15px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;  
+}
+input[type=search]{
+    width: 250px;
+    height: 40px;
+    border: none;
+    text-align: left;
+    padding: 10px;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;    
+}
+input[type=submit]{
+    width: 115px;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0065FC;
+    color: white;    
+}
+input[type=submit]:hover{
+    color: #0065FC;
+    background-color: #f2f2f2;
+    border: 1px solid #F2F2F2;
+    cursor: pointer;
+}
+.filtres{
+    display: flex;
+    align-content: inherit;
+}
+.buttonfiltre{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.filtres button{
+    display: flex;
+    align-items: center ;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    border: 3px solid #F2F2F2;
+    border-radius: 25px;
+    background: none;
+    padding: 0 15px 0 0px;
+    margin-right: 20px;
+    margin-top: 6px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: raleway;
+}
+.icon{
+    position: relative;
+    left: -3px;
+    font-size: 0.9rem;
+    display:flex;
+    height:50px;
+    width: 50px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    color: #0065FC;    
+}
+.inficon{
+    display: inline-flex ;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-right: 7px;
+    margin-top: 15px;
+    justify-content: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px #f2f2f2 solid;
+    color: #0065FC;
+}
+.textinficon {
+    padding-bottom: 20px;
+    font-size: 1rem;
+}
+.filtres button:hover .icon{
+    color: rgb(0, 61, 173);
+    background-color: white;
+    border-color: #F2F2F2;
+    scale: 1.3;
+}
+.filtres button:hover {
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+main {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+.greyStar{
+    color: #f2f2f2;
+}
+.description {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.fas fa-map-marker-alt {
+    font-family: "Font Awesome 5 Free";
+    display: flex;
+}
+
+/*----------hébergements----------*/
+
+.titreCadreHEB{
+    margin: 20 0 0 0px;
+    padding: 0 0 0 20px;
+}
+#Gheberge {
+padding: 10px 10px 10px 10px;    
+background-color: rgb(242, 242, 242);
+border-radius: 20px;
+width: 100%;
+margin: 0 0 25px 0;
+}
+.Imageheberflex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}  
+.IMGALL{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 145px;
+    margin: 0;
+}
+.grey {
+    color: rgb(206, 206, 206);
+}
+.blue {
+    color: #0065fc;
+}
+.miniature {
+    margin: 10px;
+    padding: 0px;
+    width: 29.5%;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 4px rgba(175, 175, 175, 0.675);                        
+}
+.TexteSousImage{
+    margin: 0px;
+    padding: 5px;
+    font-size: 1rem;
+}
+.Affplus{
+    padding: 20px 0 0 20px;
+    margin: 0 0 40px 0px;
+    font-size: 1rem;
+    font-weight: 800;    
+}
+
+/*----------Plus populaire----------*/
+
+.titreCadrePOP{
+    margin: 45 0 0 0px;
+    padding: 0 0 0 20px;
+}
+.pluspopcomplet {
+    margin: 45 0 0 0px;
+    padding: 10px 10px 10px 10px;    
+    background-color: rgb(242, 242, 242);
+    border-radius: 20px;
+    width: 100%;
+    height: 597.5;
+}
+.pluspop {
+    margin: 10px;
+    padding: 0px;
+    color: black;
+    height: 26.5%;
+    width: 95%;
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 4px rgba(175, 175, 175, 0.675);
+}
+.pluspop figure {
+    height: 39%;
+}
+.IMGplupop{
+    border-radius: 20px 0px 0px 20px;
+    height: 78px;
+    width: 120px;
+    overflow: hidden;
+    float: left;
+    margin: 0 15px 0 0;     
+}
+.Popeticon {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-chart-line {
+    margin: 15px 15px 0 0;
+    justify-content: space-between;
+}
+
+/*----------Activités à Marseille------------>*/
+
+#BlockActivite {
+    width: 100%;
+    display: block; 
+}
+figure{
+    margin: 20px ;
+    padding: 0px;
+    border-spacing: 15px; 
+    display: block; 
+}
+.miniaActivite{
+    display: block; 
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 0px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 4px rgba(175, 175, 175, 0.675);
+}
+
+.IMGActiviteBIG , .IMGActiviteSMALLa , .IMGActiviteSMALLb , .IMGActiviteSMALLa1 , .IMGActiviteSMALLb2{
+    border-radius: 20px 20px 0px 0px;
+    height: 220px;
+    width: 100%;
+    margin: 0px;            
+}
+.TexteSousActivit{
+    margin: 0px;
+    padding: 10px;
+    font-size: 0.8rem;
+    margin-bottom: 25px;
+}
+
+
+/*----------Footer----------*/
+
+footer { 
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    font-size: 1.1rem;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.normaliz{
+    margin-left: 3%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sectionfooter ul{
+   padding: 0px 0px 0px 0px;
+  
+}
+.sectionfooter li{
+    padding: 5px 0px 0px 5px;
+}
+}
+/*---------- Regle pour les écran de plus de 960px à 1380px---------*/
+
+@media all and (min-width:1px) and (max-width:825px)
+{
+
+/*-----------Regle d'ensemble du site----------*/
+
+body {
+    font-family: raleway;
+    font-size: 90%;
+}
+
+h4 {
+    margin: 0px;
+    padding: 5px;
+    font-size: 1rem;
+}
+h3{
+    font-size: 1.1rem;
+}
+li {
+    list-style: none; 
+}
+img {
+    object-fit: cover;
+}
+h1 {
+    margin: 0 0 0.5 0;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+h2 {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-right: 45px;
+    padding-top: 10px;   
+}
+p{
+    font-size: 1rem;
+    }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #0065FC;
+}
+.hiddenSmart {
+    display: none;
+}
+.sectioongroupi {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+/*----------Header----------*/
+
+/*----------Menu de navigation principal---------*/
+
+.logo{
+    width: 7rem;
+    height: auto;
+    padding-top: 45px;
+}
+.navheader {
+    display: flex;
+    justify-content: space-between ;
+}
+.menu {
+    display: flex;
+    justify-content: space-between  ;
+    padding-top : 25px;
+}
+.menuSmart{
+    display: flex;
+    flex-wrap: wrap;  
+    position: relative;
+    left: -25px;  
+}
+.menuSmart li  {
+    width: 50%;
+   padding-bottom: 15px;
+   border-bottom: 3px solid #f2f2f2;
+}
+.menuSmart ul  {
+   justify-content: space-around;
+   margin: 0;
+}
+.menuSmart a  {
+    justify-content: space-around;
+    padding: 0 0 0 50px;
+ }
+.menuSmart li:hover  {
+    width: 50%;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #0065FC ;
+    
+}
+.menu a{
+    color: black;
+    text-decoration: none;
+    border-top : 4px;
+    padding-top : 58px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1rem;    
+}
+#register {
+    color: #0065fc;
+    text-decoration: none;
+    font-weight: 700;
+    border-top : 4px;
+    padding-top : 58px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+#register:hover {
+    color: #5f5f5f;
+    cursor: pointer; 
+    border-bottom: solid 3px #0065fc;       
+}
+.menu a:hover{
+    border-top: 4px #0065fc solid;
+    color: #0065fc;   
+    cursor: pointer; 
+}
+
+
+/*-----------Section de recherche----------*/
+
+.searchicon{
+    display: none;
+}
+
+.searchtape{
+    display: flex;
+    margin-bottom: 25px;
+    
+}
+.textRecherche{
+    font-size: 1.1rem;
+    font-weight: 700;
+    width: 40%;
+    display: none;
+}
+.fas fa-search{
+    font-family:"FontAwesome";
+    }
+.iconsearch{
+        font-size: 0.9rem;
+        display:flex;
+        height:40px;
+        width: 40px;
+        margin-right: 10px;
+        align-items: center;
+        justify-content: center;
+        background-color:  #0065FC;
+        border-radius: 0 10px 10px 0px;
+        color: white;    
+    }
+.ecriture {
+    font-size: 1.1rem;
+    font-weight: 725;
+    font-family: raleway;
+}
+.fa-map-marker-alt{
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding: 10px 15px;
+    background-color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;  
+}
+input[type=search]{
+    width: 250px;
+    height: 40px;
+    border: none;
+    text-align: left;
+    padding: 10px;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;    
+}
+input[type=submit]{
+    width: 115px;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #0065FC;
+    color: white;    
+}
+input[type=submit]:hover{
+    color: #0065FC;
+    background-color: #f2f2f2;
+    border: 1px solid #F2F2F2;
+    cursor: pointer;
+}
+.filtres{
+    display: flex;
+    align-content: inherit;
+}
+.buttonfiltre{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.filtres button{
+    display: flex;
+    align-items: center ;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    border: 3px solid #F2F2F2;
+    border-radius: 25px;
+    background: none;
+    padding: 0 15px 0 0px;
+    margin-right: 20px;
+    margin-top: 6px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: raleway;
+}
+.icon{
+    position: relative;
+    left: -3px;
+    font-size: 0.9rem;
+    display:flex;
+    height:50px;
+    width: 50px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    color: #0065FC;    
+}
+.inficon{
+    display: inline-flex ;
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-right: 7px;
+    margin-top: 15px;
+    justify-content: 15px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px #f2f2f2 solid;
+    color: #0065FC;
+}
+.textinficon {
+    padding-bottom: 20px;
+    font-size: 1rem;
+}
+.filtres button:hover .icon{
+    color: rgb(0, 61, 173);
+    background-color: white;
+    border-color: #F2F2F2;
+    scale: 1.3;
+}
+.filtres button:hover {
+    background-color: #DEEBFF;
+    color: #0065FC;
+}
+main {
+    max-width: 1340px;
+    margin: 0 auto;
+}
+.greyStar{
+    color: #f2f2f2;
+}
+.description {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.fas fa-map-marker-alt {
+    font-family: "Font Awesome 5 Free";
+    display: flex;
+}
+
+/*----------hébergements----------*/
+
+.titreCadreHEB{
+    margin: 20 0 0 0px;
+    padding: 0 0 0 20px;
+}
+#Gheberge {
+padding: 10px 10px 10px 10px;    
+background-color:white;
+border-radius: 20px;
+width: 100%;
+margin: 0 0 25px 0;
+}
+.Imageheberflex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}  
+.IMGALL{
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    height: 145px;
+    margin: 0;
+}
+.grey {
+    color: rgb(206, 206, 206);
+}
+.blue {
+    color: #0065fc;
+}
+.miniature {
+    margin: 10px;
+    padding: 0px;
+    width: 100%;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 4px rgba(175, 175, 175, 0.675);                        
+}
+.TexteSousImage{
+    margin: 0px;
+    padding: 5px;
+    font-size: 1rem;
+}
+.Affplus{
+    padding: 20px 0 0 20px;
+    margin: 0 0 40px 0px;
+    font-size: 1rem;
+    font-weight: 800;    
+}
+
+/*----------Plus populaire----------*/
+
+.titreCadrePOP{
+    margin: 45 0 0 0px;
+    padding: 0 0 0 20px;
+}
+.pluspopcomplet {
+    margin: 45 0 0 0px;
+    padding: 10px 10px 10px 10px;    
+    background-color: rgb(242, 242, 242);
+    border-radius: 0px;
+    width: 100%;
+    height: 597.5;
+}
+.pluspop {
+    margin: 10px;
+    padding: 0px;
+    color: black;
+    height: 26.5%;
+    width: 95%;
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px 4px rgba(175, 175, 175, 0.675);
+}
+.pluspop figure {
+    height: 39%;
+}
+.IMGplupop{
+    border-radius: 20px 0px 0px 20px;
+    height: 78px;
+    width: 120px;
+    overflow: hidden;
+    float: left;
+    margin: 0 15px 0 0;     
+}
+.Popeticon {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-chart-line {
+    margin: 15px 15px 0 0;
+    justify-content: space-between;
+}
+
+/*----------Activités à Marseille------------>*/
+
+#BlockActivite {
+    width: 100%;
+    display: block; 
+}
+figure{
+    margin: 20px ;
+    padding: 0px;
+    border-spacing: 15px; 
+    display: block; 
+}
+.miniaActivite{
+    display: block; 
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    border: 0px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 4px rgba(175, 175, 175, 0.675);
+}
+
+.IMGActiviteBIG , .IMGActiviteSMALLa , .IMGActiviteSMALLb , .IMGActiviteSMALLa1 , .IMGActiviteSMALLb2{
+    border-radius: 20px 20px 0px 0px;
+    height: 220px;
+    width: 100%;
+    margin: 0px;            
+}
+.TexteSousActivit{
+    margin-bottom: 25px;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+
+/*----------Footer----------*/
+
+footer { 
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    font-size: 1.1rem;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.normaliz{
+    margin-left: 3%;
+    margin-right: 20%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+    
+}
+.sectionfooter ul{
+   padding: 0px 0px 0px 0px;
+  
+}
+.sectionfooter li{
+    padding: 5px 0px 0px 5px;
+}
+}
