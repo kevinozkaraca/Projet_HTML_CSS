@@ -1,4 +1,4 @@
-# Reservia
+# Site statique - Reservia
 
  Projet de formation
 
@@ -31,6 +31,12 @@
 *Ne pas oublier les commentaires
 
 **Voir le site ici** :  <a href="https://kevinozkaraca.github.io/Proket_HTML_CSS/" target="_blank">Cliquer ICI !</a>
+
+<br/>
+<p align="center">
+  <img align="center" width="90%" alt="Projet de formation" src="imagesReadme/projet01.gif"/>
+</p>
+<br/>
 
 ### Mes reseaux sociaux : 
 
