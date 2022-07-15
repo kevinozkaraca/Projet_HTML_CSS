@@ -30,7 +30,7 @@
 
 *Ne pas oublier les commentaires
 
-**Voir le site ici** :  <a href="https://kevinozkaraca.github.io/Proket_HTML_CSS/" target="_blank">Cliquer ICI !</a>
+**Voir le site ici** :  <a href="https://kevinozkaraca.github.io/Projet_HTML_CSS/" target="_blank">Cliquer ICI !</a>
 
 <br/>
 <p align="center">
